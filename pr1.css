@@ -1,0 +1,109 @@
+*{
+    margin: auto;
+}
+
+body{
+    background-image: url(bgc.jpg);
+    background-size: cover;
+    background-position: center;
+}
+section{
+    height: 100vh;
+}
+#nav{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 1%;
+}
+
+.container{
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-bottom: 25%;
+    border-radius: 30px;
+    background-color: rgba(0, 140, 255, 0.934);
+    color: white;
+    
+}
+#Total_bill label{
+    display: inline;
+}
+#Tip_Perc label{
+    display: inline;
+}
+#Total_bill{
+
+    
+    position: absolute;
+    left: 10%;
+    top: 11%;
+    font-size: 18px;
+    
+}
+#Tip_Perc{
+
+    position: absolute;
+    left: 10%;
+    top: 31%;
+    font-size: 18px;
+
+}
+#bill{
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    padding-left: 2%;
+}
+#tip{
+    position: absolute;
+    right: 10%;
+    top: 30%;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    padding-left: 2%;
+    
+}
+input[type="text"]:focus {
+    outline: none;
+}
+.btn{
+    position: absolute;
+    align-self: center;
+    bottom: 35%;
+    padding: 10px;
+    padding-left: 30%;
+    padding-right: 30%;
+    border: none;
+    background-color: white;
+    color:  rgb(0, 140, 255);
+    font-weight: 600;
+    font-size: 20px;
+}
+h4{
+    position: absolute;
+    align-self: center;
+    bottom: 15%;
+    padding: 10px;
+    padding-left: 30%;
+    padding-right: 30%;
+    border: none;
+    background-color: white;
+    color:  rgb(0, 140, 255);
+    font-weight: 600;
+    font-size: 20px;
+}
